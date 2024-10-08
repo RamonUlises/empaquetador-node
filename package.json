@@ -1,0 +1,22 @@
+{
+  "name": "r-node-cli",
+  "version": "1.0.14",
+  "description": "Empaquetador de Node js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "cli"
+  ],
+  "bin": {
+    "rnode": "./index.js"
+  },
+  "author": "R Company",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^12.0.0"
+  }
+}
